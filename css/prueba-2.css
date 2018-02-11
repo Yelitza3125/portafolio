@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-logo {
+  width: 15%;
+  margin: 0 auto;
+}
+.logo {
+ width: 100%;
+}
+
+.fz-10em {
+  font-size: 10em;
+}
+
+.mg-center {
+  margin: 0 auto;
+}
+
+.mg-0 {
+  margin-top: 5em;
+  margin-bottom: 0;
+}
