@@ -30,16 +30,6 @@
 }
 
 
-
-.logo {
-  width: 8%;
-}
-
-.vh80 {
-  height: 50vh;
-}
-
-
 .dark-blue {
   background-color: #000249;
  }
@@ -73,14 +63,12 @@ main {
 
 .col-one {
   background-color: #000249;
-  color: #fff;
-  
+  color: #fff;  
 }
 
 .col-two {
   color: #fff;
   background-color: #ff5151;
- 
 }
 
 .fz-10em {
@@ -110,7 +98,7 @@ main {
   justify-content: space-between;
 }
 
-/* aca*/
+/* Estilos de las figuras cambiantes*/
 .litle-container {
  /* height: 30vh;*/
  /* width: 20%; */
@@ -118,7 +106,6 @@ main {
   margin-left: 1em;
   -webkit-margin-collapse: collapse;
  /* float: left;*/
-
 }
 
 .vh30 {
@@ -139,12 +126,17 @@ main {
 
 }
 
-.name {
+
+/*Estilos del nombre */
+
+.logo{
+  width: 50%;
+}
+
+.style-text {
   color: #000249;
   font-weight: 700;
 }
-
-
 
 .display-options li {
   transition: all .3s ease-in-out;
@@ -175,22 +167,14 @@ main {
 
 .figure-container {
   width: 100%;
-  
   display: flex;
-  /*
-  flex-flow:  row nowrap;
- flex-direction: row;
- flex-wrap: nowrap;
- justify-content: center;
- align-content: center;
- align-items: center; */
 }
-/*
-.ja {
-  position: absolute;
-  top:  40%; 
-  left: 40%;
-} */
+
+.marg-2em {
+ margin-top: 2em;
+ align-self: center;
+ 
+} 
 
 .biography {
   display: flex;
@@ -199,6 +183,53 @@ main {
   align-items: flex-start
 }
 
-.ja {
-  align-self: center;
+/*estilo nav bar */
+
+.frame {
+  font-size: 1.2em;
+  margin-top: 3em;
+  color: #ff5151;
+  cursor: pointer;
 }
+
+.menu {
+    padding: 0 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}    
+
+.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: all .5s ease-in-out .5s;
+}
+    
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+}  
+    
+.menu ul li {
+    position: relative;
+    display: block;
+    flex: 0 1 auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}   
+      
+.menu ul li :hover {
+    opacity: 0.6;
+}
+
