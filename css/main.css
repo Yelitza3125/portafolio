@@ -71,12 +71,20 @@ main {
   background-color: #ff5151;
 }
 
+hr {
+  width: 50%;
+}
+
 .fz-10em {
   font-size: 10em;
 }
 
 .fz-2em {
   font-size: 2em;
+}
+
+.marg-1em {
+  margin-top: 1em;
 }
 
 /*Estilos de la sección información */
@@ -102,7 +110,7 @@ main {
 .litle-container {
  /* height: 30vh;*/
  /* width: 20%; */
-   margin-bottom: 1em;
+  margin-bottom: 1em;
   margin-left: 1em;
   -webkit-margin-collapse: collapse;
  /* float: left;*/
@@ -119,12 +127,11 @@ main {
   align-items: center;
 }
 
+/*
 .color-gray {
-  /*background-color: #ececec; */
- 
+  background-color: #ececec; 
   background: -webkit-linear-gradient(top, rgba(202,215,219,0.8) 0%,rgba(255,255,255,0.7) 100%), url("../assets/images/1.jpg");
-
-}
+} */
 
 
 /*Estilos del nombre */
@@ -173,8 +180,8 @@ main {
 .marg-2em {
  margin-top: 2em;
  align-self: center;
- 
 } 
+
 
 .biography {
   display: flex;
