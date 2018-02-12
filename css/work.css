@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.vh80 {
+  height: 100vh;
+}
+
+
+.back-gray {
+  background-color: #cccccc;
+}
+
+.text {
+  margin-top: 2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+}
+
+/* Estilo nav*/
+
+/*estilo nav bar */
+
+.frame {
+  font-size: 1.2em;
+  margin-top: 3em;
+  color: #ff5151;
+  cursor: pointer;
+  margin-left: 1em !important;
+}
+
+.menu {
+    padding: 0 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}    
+
+.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: all .5s ease-in-out .5s;
+}
+    
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+}  
+    
+.menu ul li {
+    position: relative;
+    display: block;
+    flex: 0 1 auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}   
+      
+.menu ul li :hover {
+    opacity: 0.6;
+}
+
+
+.display-flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-work {
+  margin-top: 2em;
+  font-size: 1.3em;
+  text-align: justify;
+  margin-left: 1em !important;
+}

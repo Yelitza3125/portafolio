@@ -26,7 +26,7 @@ $(document).ready(function() {
       {width: sizeChange[Math.floor(Math.random() * 4)],
         height: heightChange[Math.floor(Math.random() * 4)]});
     $('.blue-soft').toggleClass('pink-one');  
-  }, 2000);
+  }, 3000);
   
   setInterval(function changeFormSoftBlue() {
     var sizeChangeTwo = ['25%', '15%', '28%', '18%'];
@@ -36,7 +36,7 @@ $(document).ready(function() {
       {width: sizeChangeTwo[Math.floor(Math.random() * 4)],
         height: heightChange[Math.floor(Math.random() * 4)]});
     $('.dark-blue').toggleClass('pink-soft');     
-  }, 3000);
+  }, 4000);
   
   setInterval(function changeFormPinkDark() {
     var sizeChangeThree = ['21%', '19%', '23%', '30%'];
@@ -45,7 +45,7 @@ $(document).ready(function() {
       {width: sizeChangeThree[Math.floor(Math.random() * 4)],
         height: heightChange[Math.floor(Math.random() * 4)]}); 
     $('.pink-one').toggleClass('dark-blue');  
-  }, 2000);    
+  }, 3000);    
   
   setInterval(function changeFormPinkSoft() {
     var sizeChangeFour = ['22%', '24%', '15%', '31%'];
@@ -54,7 +54,8 @@ $(document).ready(function() {
       {width: sizeChangeFour[Math.floor(Math.random() * 4)],
         height: heightChange[Math.floor(Math.random() * 4)]});  
     $('.soft-pink').toggleClass('blue-soft');   
-  }, 3000);
+  }, 4000);
+  
 
   /* Funcionalidad del navbar */
 
