@@ -115,10 +115,50 @@
   margin-top: 10em;
 }
 
-.container-img {
+.img-lyft {
+  background-image: url("../assets/images/repositorios/lyft.jpg");
+  /*outline: 1px solid blueviolet; */
+}
+
+.img-labcar {
+  background-image: url("../assets/images/repositorios/lab-car.jpg");
+  /*outline: 1px solid blueviolet; */
+}
+
+.img-dashboard {
+  background-image: url("../assets/images/repositorios/dashboard.jpg")
+}
+
+.img-cincritica {
+  background-image: url("../assets/images/repositorios/cincritica.jpg")
+}
+.container-back-style {
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 50vh;
   width: 45%;
-  /*outline: 1px solid blueviolet; */
+}
+
+
+/*Icono zoom */
+div.zoom {
+  height: 50vh;
+  width: 80%;
+  
+  background-color: #18bc9c;
+  visibility: hidden;
+}
+
+div.zoom i {
+  margin: 0 auto;
+  font-size: 60px;
+  color: #fff;
+  line-height: 50vh;
+}
+
+div.container-back-style:hover div.zoom {
+visibility: visible;
+cursor: pointer;
 }
 
 .container-img img {
@@ -147,4 +187,8 @@
 
 .rol, .description-text {
   font-weight: bold;
+}
+
+.pink-color {
+  color: #ff5151;
 }
