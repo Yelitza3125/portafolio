@@ -117,24 +117,32 @@
 
 .container-img {
   height: 50vh;
-  width: 50%;
-  outline: 1px solid blueviolet;
+  width: 45%;
+  /*outline: 1px solid blueviolet; */
+}
+
+.container-img img {
+  width: 70%;
 }
 
 .display-flex-row{
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .description {
-  color: #000;
-  margin-left: 2em;
+  color: #000; 
   width: 45%;
   text-align: justify;
 }
 
 .mg-1em {
   margin-top: 1em;
+}
+
+.mg-2em {
+  margin-top: 2em;
 }
 
 .rol, .description-text {
