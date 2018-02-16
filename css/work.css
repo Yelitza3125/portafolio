@@ -185,6 +185,10 @@ cursor: pointer;
   margin-top: 2em;
 }
 
+.mg-4em {
+  margin-top: 4em;
+}
+
 .rol, .description-text {
   font-weight: bold;
 }
