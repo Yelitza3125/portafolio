@@ -47,10 +47,9 @@
 
 .frame {
   font-size: 1.2em;
-  margin-top: 10em;
+  margin-top: 3em;
   color: #ff5151;
   cursor: pointer;
-  margin-left: 1em !important;
 }
 
 .menu {
@@ -68,6 +67,7 @@
     
 .menu ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     list-style: none;
@@ -91,9 +91,22 @@
 }   
       
 .menu ul li :hover {
-    opacity: 0.6;
+  color: #000249; 
+    /*opacity: 0.6; */
+    text-decoration: underline;
 }
 
+
+.frame {
+  position: fixed;
+  top: 50%;
+  right: 40px;
+  width: auto;
+  height: 100%;
+  list-style: none;
+  line-height: 20px;
+  text-align: right;
+  }
 
 .display-flex-column{
   display: flex;
@@ -103,7 +116,7 @@
 }
 
 .resume-work {
-  margin-top: 2em;
+  margin-top: 12em;
   font-size: 1.3em;
   text-align: justify;
   margin-left: 1em !important;
@@ -195,4 +208,74 @@ cursor: pointer;
 
 .pink-color {
   color: #ff5151;
+}
+
+
+/*Repositorios actuales*/
+
+.lyft {
+  height: auto;
+  background-image: url('../assets/images/repositorios/lyft-2.jpg');
+  background-size: contain;
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+
+.container-description {
+  height: auto;
+} 
+
+.proyect-title {
+  margin-top: 2em;
+  text-transform: uppercase;
+  color: #0f4392;
+  font-size: 4.5em;
+  font-weight: 700;
+  text-align: center;
+ 
+}
+
+.proyect-description { 
+  font-size: 1.5em;
+  color: #333;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.display-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.logos-tools img {
+  width: 70%;
+ filter: grayscale();
+ margin-bottom: 2em;
+}
+
+.title-solution {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #ff5151;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-solution { 
+  font-size: 1.3em;
+  color: #333;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.btn-github {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-decoration: none;
+  padding: 1em 1.5em;
+  background-color: #ff5151;
+  border-radius: 10px;
+  color: #fff;
 }

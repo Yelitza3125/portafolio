@@ -13,6 +13,11 @@ $(document).ready(function() {
     $('.menu').removeClass('active');
   });
 
+  setInterval(function () {
+    $('.text-animated').addClass('animated hinge');
+  },5000);
+
+  
   /* Redireccionando a la siguiente vista*/
   $('.work').click(function() {
     window.location.href = 'views/work.html'; 

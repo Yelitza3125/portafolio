@@ -20,13 +20,26 @@ h2 {
   text-align: center;
 }
 
-.images .ho  {
+.images .ho {
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   background: #000;
 } 
 
+.images .one  {
+  animation-duration: 3s;
+  animation-name: slideup;
+  animation-iteration-count: infinite;
+  background: #000;
+} 
+
+.images .four  {
+  animation-duration: 8s;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  background: #000;
+} 
 /*
 .ho {
   position: relative;
@@ -40,12 +53,36 @@ h2 {
 
 @keyframes slidein {
   from {
-    margin-right: 5%;
+    margin-right: 0%;
     
   }
 
   to {
     margin-left: 60%;
+  
+  }
+}
+
+@keyframes slideup {
+  from {
+    margin-right: 100%;
+    
+  }
+
+  to {
+    margin-right: 0%;
+  
+  }
+}
+
+@keyframes slide {
+  from {
+    margin-right: 100%;
+    
+  }
+
+  to {
+    margin-left: 00%;
   
   }
 }
