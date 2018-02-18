@@ -223,6 +223,7 @@ hr {
     
 .menu ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     list-style: none;
@@ -246,5 +247,107 @@ hr {
 }   
       
 .menu ul li :hover {
-    opacity: 0.6;
+  color: #000249; 
+    /*opacity: 0.6; */
+    text-decoration: underline;
+}
+
+
+.frame {
+  position: fixed;
+  top: 50%;
+  right: 40px;
+  width: auto;
+  height: 100%;
+  list-style: none;
+  line-height: 20px;
+  text-align: right;
+  }
+
+  /*
+ .frame li a {
+  display: inline-block;
+  padding: 20px;
+  color: #D4D4D4;
+  text-decoration: undeline;
+  border-right: 4px solid transparent;
+  } */
+  
+  .habilities {
+    height: 20vh;
+    margin-top: 3em;
+  }
+
+
+  .block-gray {
+    margin-top: 1em;
+    background-color: #d6d6da;
+    width: 15px; 
+    height: 15px; 
+    
+  }
+
+  .information {
+   margin-top: 2em;
+  }
+
+  .text-container  {
+    align-self: flex-start;
+  }
+
+ 
+
+  .hola {
+    display: inline;
+    position: relative;
+    font: 200px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color:#0f4392; 
+}
+
+.hola:after {
+    content: "Hola,";
+    position: absolute; left: 10px; top: 5px;
+    color: rgba(216, 210, 210, 0.5);   
+}
+
+.skills {
+  height: 150vh;
+  background-image: url('../assets/images/back-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+
+.display-flex-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+em {
+  color: #ff8b8b;
+  font-size: 5em;
+  font-weight: 700;
+  font-style: normal;
+  width: 10vmin;
+  text-align: center;
+}
+
+h4.white-text {
+  word-spacing: 5px;
+}
+
+.mg-2em {
+  margin-top: 2em;
+}
+
+.sub-text {
+  font-size: 1.5em;
+}
+
+.square {
+  height: 15px;
+  width: 15px;
+  background-color: #ff8b8b;
 }

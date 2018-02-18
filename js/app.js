@@ -12,11 +12,19 @@ $(document).ready(function() {
     $('.col-two').addClass('animated slideOutRight');
   }, 2000);
 
+  setInterval(function() { 
+    $('.block-gray').removeClass('hide');
+    $('.block-gray').addClass('animated fadeInDown');
+  }, 4000);
+
+ 
+
   setInterval(function() {
     $('main').addClass('invisible');
-    $('body').removeClass('.scroll');
+    $('body').removeClass('scroll');
   }, 2700);
 
+  
 
   setInterval(function changeFormDarkBlue() {
     var sizeChange = ['20%', '10%', '25%', '30%'];
@@ -69,6 +77,12 @@ $(document).ready(function() {
     $('.menu-icon').removeClass('active');
     $('.menu').removeClass('active');
   });
+
+ /*Mostrando los bloques grices */
+
+
+  
+
 
   /* Redireccionando a la siguiente vista*/
   $('.work').click(function() {
