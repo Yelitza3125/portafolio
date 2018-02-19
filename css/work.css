@@ -213,6 +213,7 @@ cursor: pointer;
 
 /*Repositorios actuales*/
 
+/*Lyft*/
 .lyft {
   height: auto;
   background-image: url('../assets/images/repositorios/lyft-2.jpg');
@@ -278,4 +279,38 @@ cursor: pointer;
   background-color: #ff5151;
   border-radius: 10px;
   color: #fff;
+}
+
+/*LabCar*/
+
+.mg-8em {
+  margin-top: 8em;
+}
+
+.labcar {
+  height: auto;
+  background-image: url('../assets/images/repositorios/labcar.jpg');
+  background-size: contain;
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+
+/*Cincrítica*/
+
+.cincritica {
+  height: auto;
+  background-image: url('../assets/images/repositorios/cincritica-2.jpg');
+  background-size: contain;
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+
+/*Checkbus*/
+
+.check-bus {
+  height: auto;
+  background-image: url('../assets/images/repositorios/check-bus.jpg');
+  background-size: contain;
+  background-position: center center; 
+  background-repeat: no-repeat;
 }
