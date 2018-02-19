@@ -2,6 +2,7 @@
 $(document).ready(function() {
   /* Funcionalidad del navbar */
 
+  /*
   $('.menu-icon').bind('click', function() {
     $('.menu-icon').removeClass('paused').addClass('active');
     $('.menu-icon').addClass('hide');
@@ -15,7 +16,7 @@ $(document).ready(function() {
 
   setInterval(function () {
     $('.text-animated').addClass('animated hinge');
-  },5000);
+  },5000); */
 
   
   /* Redireccionando a la siguiente vista*/
