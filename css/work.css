@@ -161,26 +161,6 @@
 }
 
 
-/*Icono zoom */
-div.zoom {
-  height: 50vh;
-  width: 80%;
-  
-  background-color: #18bc9c;
-  visibility: hidden;
-}
-
-div.zoom i {
-  margin: 0 auto;
-  font-size: 60px;
-  color: #fff;
-  line-height: 50vh;
-}
-
-div.container-back-style:hover div.zoom {
-visibility: visible;
-cursor: pointer;
-}
 
 .container-img img {
   width: 70%;
