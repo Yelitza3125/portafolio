@@ -53,7 +53,6 @@
 /*estilo nav bar */
 
 .frame {
-  font-size: 1.2em;
   color: #ff5151;
   cursor: pointer;
 }
@@ -66,11 +65,6 @@
     transition: all .5s ease-in-out;
 }     */
 
-.active {
-    opacity: 1;
-    pointer-events: all;
-    transition: all .5s ease-in-out .5s;
-}
     
 .menu ul {
     display: flex;
@@ -78,21 +72,16 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    font-size: 16px;
+    font-size: 1.3em;
     line-height: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    width: 280px;
+    width: 550px;
     margin: 0;
     padding: 0;
 }  
     
 .menu ul li {
-    position: relative;
-    display: block;
-    flex: 0 1 auto;
-    margin: 0;
-    padding: 0;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }   
@@ -240,8 +229,8 @@
 
 .logos-tools img {
   width: 70%;
- filter: grayscale();
- margin-bottom: 2em;
+  filter: grayscale();
+  margin-bottom: 2em;
 }
 
 .title-solution {

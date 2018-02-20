@@ -20,7 +20,16 @@ $(document).ready(function() {
 
   
   /* Redireccionando a la siguiente vista*/
+  
   $('.work').click(function() {
-    window.location.href = 'views/work.html'; 
+    window.location.href = '../views/work.html'; 
+  });
+
+  $('.about').click(function() {
+    window.location.href = '../index.html'; 
+  });
+  
+  $('.contact').click(function() {
+    window.location.href = '../views/contact.html'; 
   });
 });
