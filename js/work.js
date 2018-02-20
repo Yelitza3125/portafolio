@@ -1,5 +1,18 @@
 
 $(document).ready(function() {
+
+  var altura = $('.resume-work').offset().top;
+	
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() > altura) {
+      $('.nav-scroll').removeClass('hide');
+      $('.nav-scroll').addClass('frame');
+      $('.menu-fixed-scroll').addClass('menu')
+      $('.menu-fixed-scroll').addClass('menu-fixed')  
+    } else {
+      $('.nav-scroll').addClass('hide');
+    }
+  });
   /* Funcionalidad del navbar */
 
   /*

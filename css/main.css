@@ -209,13 +209,7 @@ hr {
 .frame-fixed {
   width: 100%;
 }
-/*
-.menu {
-    padding: 0 10px;
-    opacity: 0;
-    pointer-events: none;
-    transition: all .5s ease-in-out;
-}     */
+
 .menu-fixed {
 	position:fixed;
 	z-index:1000;
@@ -258,81 +252,15 @@ hr {
 }  
     
 .menu ul li {
-    position: relative;
-    display: block;
-    flex: 0 1 auto;
-    margin: 0;
-    padding: 0;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }   
       
 .menu ul li :hover {
-  color: #000249; 
-    /*opacity: 0.6; */
+    color: #000249; 
     text-decoration: underline;
 }
 
-/*estilo nav bar 
-
-
-.active {
-    opacity: 1;
-    pointer-events: all;
-    transition: all .5s ease-in-out .5s;
-}
-    
-.menu ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    width: 280px;
-    margin: 0;
-    padding: 0;
-}  
-    
-.menu ul li {
-    position: relative;
-    display: block;
-    flex: 0 1 auto;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-}   
-      
-.menu ul li :hover {
-  color: #000249; 
-    /*opacity: 0.6; 
-    text-decoration: underline;
-} 
-
-
-.frame {
-  position: fixed;
-  top: 50%;
-  right: 40px;
-  width: auto;
-  height: 100%;
-  list-style: none;
-  line-height: 20px;
-  text-align: right;
-  }
-
-  /*
- .frame li a {
-  display: inline-block;
-  padding: 20px;
-  color: #D4D4D4;
-  text-decoration: undeline;
-  border-right: 4px solid transparent;
-  } */
   
   .habilities {
     height: 20vh;
@@ -445,7 +373,7 @@ h4.white-text {
 }
 
 
-@media (max-width: 722px) {
+@media (max-width: 722px ) {
   
 
   .fz-10em {
@@ -509,4 +437,5 @@ h4.white-text {
 .skills .mg-2em {
   margin-top: 0;
 }
+
 }

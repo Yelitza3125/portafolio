@@ -6,14 +6,11 @@ $(document).ready(function() {
     if ($(window).scrollTop() > altura) {
       $('.figure-container').addClass('hide');
       $('.menu').addClass('menu-fixed');
-      $('.nav-home').removeClass('frame');
-      $('.nav-home').addClass('frame-fixed');
-      
+      $('.nav-home').addClass('frame-fixed'); 
     } else {
       $('.figure-container').removeClass('hide');
       $('.menu').removeClass('menu-fixed');
       $('.nav-home').removeClass('frame-fixed');
-      $('.nav-home').addClass('frame');
     }
   });
 
