@@ -255,6 +255,11 @@
   color: #fff;
 }
 
+.btn-github:hover {
+  background-color: #e5e2e2;
+  color: #ff5151;
+}
+
 /*LabCar*/
 
 .mg-8em {
