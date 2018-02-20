@@ -56,11 +56,7 @@
   display: block;
 }
 
-/*Estilos de main */
 
-main {
- height: 90vh;
-}
 
 .col-one {
   background-color: #000249;
@@ -446,4 +442,71 @@ h4.white-text {
 
 .mg-3em {
   margin-top: 3em;
+}
+
+
+@media (max-width: 722px) {
+  
+
+  .fz-10em {
+    font-size: 80px;
+  }
+
+  .text-ux {
+    font-size: 30px;
+  }
+
+  .menu ul {
+     font-size: 1em;
+     width: 250px;
+ }  
+
+  
+ .logo, .presentation {
+   margin-top: 3em;
+   width: 70%;
+ }
+
+ .hola {
+  font: 100px Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color:#0f4392; 
+}
+
+.skills {
+  background-image: url('../assets/images/back-mobile.png');
+  background-size: contain;
+}
+
+.skills-start {
+  margin-top: 3em;
+}
+
+.skill-title {
+  margin-top: 3em;
+  font-size: 1.5em;
+}
+ 
+.sub-text {
+  text-align: center;
+  font-size: 1.2;
+}
+
+.likes p {
+  font-size: 2.5em;
+  letter-spacing: 5px;
+}
+
+.container-icon {
+   margin-right: 0.6em;
+}
+
+.container-icon i{
+  font-size: 1.5em;
+  padding: 0.4em;
+}
+
+.skills .mg-2em {
+  margin-top: 0;
+}
 }
