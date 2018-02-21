@@ -191,7 +191,8 @@ hr {
   align-items: flex-start
 }
 
-.presentation {
+.presentation, .hola-text {
+  margin-top: 1em;
   width: 40%;
   text-align: justify;
 }
@@ -280,12 +281,7 @@ hr {
    margin-top: 2em;
   }
 
-  .text-container  {
-    align-self: flex-start;
-  }
-
  
-
   .hola {
     display: inline;
     position: relative;
@@ -339,18 +335,29 @@ h4.white-text {
   height: 15px;
   width: 15px;
   background-color: #ff8b8b;
+  margin-top: 2em;
 }
 
 .likes {
   height: 50vh;
 }
 
-.likes p {
+.container-interes {
+  margin-top: 2em;
+}
+
+.likes p.intereses {
   font-size: 5em;
   font-weight: 700;
   color: #ff8b8b;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   margin: 0 auto;
+}
+
+.int-text {
+  width: 40%;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .container-icon {
@@ -372,6 +379,27 @@ h4.white-text {
   margin-top: 3em;
 }
 
+/*Footer */
+.footer-section {
+  margin-top: 7em;
+  border-top: 3px solid #d6d6da;
+/*background-color: #d6d6da; */
+  padding: 0.5em;
+}
+.text-footer {
+  text-align: center;
+  padding: 1em;
+}
+
+img.github {
+  cursor: pointer;
+  width: 3.5%;
+}
+
+img.linkedin {
+  cursor: pointer;
+  width: 2%;
+}
 
 @media (max-width: 722px ) {
   
@@ -395,10 +423,16 @@ h4.white-text {
    width: 70%;
  }
 
+
+
  .hola {
   font: 100px Helvetica, Sans-Serif;
   letter-spacing: -5px;
   color:#0f4392; 
+}
+
+.hola-text {
+  width: 80%;
 }
 
 .skills {
@@ -411,31 +445,38 @@ h4.white-text {
 }
 
 .skill-title {
-  margin-top: 3em;
-  font-size: 1.5em;
+  margin-top: 1em;
+  font-size: 2em;
 }
  
 .sub-text {
   text-align: center;
-  font-size: 1.2;
+  font-size: 1.2em;
 }
 
-.likes p {
-  font-size: 2.5em;
-  letter-spacing: 5px;
+.square {
+  margin-top: 1.5em;
 }
 
-.container-icon {
-   margin-right: 0.6em;
+p.intereses {
+  font-size: 2em !important;
 }
 
-.container-icon i{
-  font-size: 1.5em;
-  padding: 0.4em;
+
+.int-text {
+  font-size: 1.3em;
+  width: 80%;
 }
 
 .skills .mg-2em {
   margin-top: 0;
 }
 
+img.github {
+  width: 13%;
+}
+
+img.linkedin {
+  width: 8%;
+}
 }
