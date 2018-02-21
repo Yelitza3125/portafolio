@@ -16,16 +16,29 @@
   background-size: contain;
   background-position: 100% top;
   background-repeat: no-repeat; 
+  height: 100vh;
+  display:flex;
+  justify-content: center;
 }
 
-.text {
+.text-one {
+  font-size: 3em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.2em;
+}
+ .text-two {
+  font-size: 7em;
+  /*
   position: absolute;
   top: -3%;
-  left: 30%;
+  left: 30% !important;
   font-size: 7em;
   margin-top: 2em;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05em; */
 }
+
 
 .text .letter-bold {
   font-weight: 700;
@@ -77,6 +90,7 @@
 .ul-scroll {
   margin: 0 auto !important;
 }
+
 .menu ul li {
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -110,7 +124,7 @@
 }
 
 .resume-work {
-  margin-top: 12em;
+  margin-top: 2em;
   font-size: 1.3em;
   text-align: justify;
   margin-left: 1em !important;
@@ -211,6 +225,7 @@
 }
 
 .proyect-description { 
+  margin-top: 1em;
   font-size: 1.5em;
   color: #333;
   font-weight: lighter;
@@ -223,9 +238,15 @@
   justify-content: space-between;
 }
 
+.logo-display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .logos-tools img {
-  width: 70%;
+  width: 50%;
   filter: grayscale();
   margin-bottom: 2em;
 }
@@ -292,4 +313,150 @@
   background-size: contain;
   background-position: center center; 
   background-repeat: no-repeat;
+}
+
+/*Footer */
+
+.display-flex-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section {
+  margin-top: 7em;
+  border-top: 3px solid #d6d6da;
+/*background-color: #d6d6da; */
+  padding: 0.5em;
+}
+.text-footer {
+  text-align: center;
+  padding: 1em;
+}
+
+img.github {
+  cursor: pointer;
+  width: 3.5%;
+}
+
+img.linkedin {
+  cursor: pointer;
+  width: 2%;
+}
+
+
+@media (max-width: 722px ) {
+
+  .back-gray {
+    background-color: #cccccc;
+    background-image: url('../assets/images/cuadros.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+  }
+  
+  .text {
+    position: absolute;
+    left: 10% !important;
+  width: 100%;  
+  font-size: 3em;
+  margin-top: 6em;
+ 
+  }
+
+  .resume-work {
+    margin-top: 2em;
+    font-size: 1.2em;
+  
+  }
+
+
+  .repository {
+    margin-top: 0;
+  }
+
+  .vh80 {
+    height: auto;
+  }
+
+  .proyect-title {
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #0f4392;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+   
+  }
+  
+  .proyect-description { 
+    margin-top: 1em;
+    font-size: 1.3em;
+    color: #333;
+    font-weight: lighter;
+    text-align: justify;
+  }
+
+  /*Checkbus*/
+
+.mov-img {
+  margin-top: 1.5em;
+}
+
+.title-solution {
+  margin-top: 1em;
+}
+
+.btn-github {
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  background-color: #ff5151;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-demo {
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.6em 2em;
+  background-color: #ff5151;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-github:hover {
+  background-color: #e5e2e2;
+  color: #ff5151;
+}
+
+.tools-cincritica {
+  width: 80% !important;
+}
+
+.menu ul {
+  font-size: 1em;
+  width: 300px;
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+  padding: 2em;
+  background-color: #fff;
+}
+
+.ul-scroll {
+  margin: 0 !important;
+}
+img.github {
+  width: 13%;
+}
+
+img.linkedin {
+  width: 8%;
+}
 }

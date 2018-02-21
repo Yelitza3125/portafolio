@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-  var altura = $('.resume-work').offset().top;
+  var altura = $('.back-gray').offset().top;
 	
   $(window).on('scroll', function() {
     if ($(window).scrollTop() > altura) {
