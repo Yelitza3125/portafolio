@@ -33,6 +33,15 @@ $(document).ready(function() {
 
   
   /* Redireccionando a la siguiente vista*/
+
+  /* Redirección del footer */
+  $('.github').click(function() {
+    window.open('https://github.com/Yelitza3125');
+  });
+
+  $('.linkedin').click(function() {
+    window.open('https://www.linkedin.com/in/yelitza-cisneros/');
+  });
   
   $('.work').click(function() {
     window.location.href = '../views/work.html'; 

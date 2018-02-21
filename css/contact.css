@@ -40,7 +40,7 @@
     line-height: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    width: 280px;
+    width: 350px;
     margin: 0;
     padding: 0;
 }  
@@ -108,7 +108,7 @@ h2 {
   
 }
 .datos {
-  margin-top: 10em;
+  margin-top: 20em;
 }
 .datos-container {
   align-self: flex-start;
@@ -129,9 +129,82 @@ h2 {
   align-items: center;
 }
 .datos-container img.github {
+  cursor: pointer;
+  margin-top: 1em;
   width: 15%;
 }
 
 .datos-container img.linkedin {
+  cursor: pointer;
+  margin-top: 1em;
   width: 9%;
+}
+
+.dowload-cv {
+  text-decoration: none;
+  padding: 1em;
+  background-color: #000249;
+  border-radius: 10px;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+@media (max-width:722px ) {
+  .frame {
+    margin-top: 3em;
+    font-size: 1.5em;
+    color: #000249;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .menu ul {
+    margin:  0 auto;
+    width: 300px;
+  
+}  
+
+.section-title {
+  margin-top: 2em;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+
+}
+.contact {
+  background-size: cover;
+}
+
+.images {
+  margin-top: 2em;
+}
+
+.images div {
+  width: 65px;
+  height:65px;
+  margin: 0.2em !important;
+  float: left;
+}
+
+
+.images div img {
+  width: 65px;
+  height: 65px;
+  filter: grayscale();
+}
+.datos {
+  margin-top: 3em;
+}
+
+.dowload-cv {
+  text-decoration: none;
+  padding: 0.5em;
+  background-color: #000249;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.email {
+  font-size: 1.3em;
+}
 }
