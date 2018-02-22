@@ -149,6 +149,35 @@ h2 {
   color: #fff;
 }
 
+/*Footer */
+
+.display-flex-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section {
+  margin-top: 5em;
+  border-top: 3px solid #d6d6da;
+/*background-color: #d6d6da; */
+  padding: 0.5em;
+}
+.text-footer {
+  text-align: center;
+  padding: 1em;
+}
+
+img.github {
+  cursor: pointer;
+  width: 3.5%;
+}
+
+img.linkedin {
+  cursor: pointer;
+  width: 2%;
+}
+
+
 @media (max-width:722px ) {
   .frame {
     margin-top: 3em;
@@ -206,5 +235,9 @@ h2 {
 
 .email {
   font-size: 1.3em;
+}
+
+.footer-section {
+  margin-top: 3em;
 }
 }
