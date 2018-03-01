@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  var altura = $('.figure-container').offset().top;
+  var altura = $('.biography').offset().top;
 	
   $(window).on('scroll', function() {
     if ($(window).scrollTop() > altura) {

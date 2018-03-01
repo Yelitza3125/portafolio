@@ -70,7 +70,14 @@
   cursor: pointer;
 }
 
+main .frame-fixed .menu-fixed-scroll ul.ul-scroll li:nth-child(2) span {
+  color: #000249;
+}
 
+main .display-flex-around .frame .menu ul li:nth-child(2) span {
+  color: #000249;
+}
+    
     
 .menu ul {
     display: flex;

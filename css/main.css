@@ -183,12 +183,20 @@ hr {
  align-self: center;
 } 
 
+.marg-6em {
+  margin-top: 6em;
+}
+
 
 .biography {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start
+}
+
+.presentation {
+  margin-top: 3em;
 }
 
 .presentation, .hola-text {
@@ -230,6 +238,9 @@ hr {
 
 }
 
+section.biography .frame .menu ul li:nth-child(1) span {
+  color: #000249;
+}
 
 .active {
     opacity: 1;
@@ -279,26 +290,41 @@ hr {
 
   .information {
    margin-top: 2em;
+   border-left: 2px solid #ff5151;
   }
 
+  .information-style {
+    background-color: #ff5151;
+    color: #fff;
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
+
+
+  .text-container {
+    margin-bottom: 2em;
+  }
  
   .hola {
     display: inline;
     position: relative;
-    font: 200px Helvetica, Sans-Serif;
-    letter-spacing: -5px;
-    color:#0f4392; 
+    font: Helvetica, Sans-Serif;
+    letter-spacing: 5px;
+   /* color:#0f4392; */
 }
 
 .hola:after {
-    content: "Hola,";
+    content: "User";
     position: absolute; left: 10px; top: 5px;
-    color: rgba(216, 210, 210, 0.5);   
+    /*
+    color: rgba(216, 210, 210, 0.5);   */
+    color: rgba(231, 227, 227, 0.4);
 }
 
 .skills {
-  height: 150vh;
-  background-image: url('../assets/images/back-2.png');
+  height: 130vh;
+  /*background-image: url('../assets/images/back-2.png'); */
+  background-color: #0f4392;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -403,6 +429,9 @@ img.linkedin {
 
 @media (max-width: 722px ) {
   
+  .marg-6em {
+    margin-top: 3em;
+  }
 
   .fz-10em {
     font-size: 80px;
@@ -426,8 +455,7 @@ img.linkedin {
 
 
  .hola {
-  font: 100px Helvetica, Sans-Serif;
-  letter-spacing: -5px;
+  font: 30px Helvetica, Sans-Serif;
   color:#0f4392; 
 }
 
@@ -436,7 +464,8 @@ img.linkedin {
 }
 
 .skills {
-  background-image: url('../assets/images/back-mobile.png');
+  height: 120vh;
+  /*background-image: url('../assets/images/back-mobile.png'); */
   background-size: contain;
 }
 
