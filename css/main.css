@@ -313,22 +313,49 @@ section.biography .frame .menu ul li:nth-child(1) span {
    /* color:#0f4392; */
 }
 
+/*
 .hola:after {
     content: "User";
     position: absolute; left: 10px; top: 5px;
-    /*
-    color: rgba(216, 210, 210, 0.5);   */
+    
+    color: rgba(216, 210, 210, 0.5);   
     color: rgba(231, 227, 227, 0.4);
+} */
+
+.display-flex-skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.margen {
+  margin-top: 3em;
+}
+
+.display-flex-column-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
 }
 
 .skills {
-  height: 130vh;
+  height: 80vh;
   /*background-image: url('../assets/images/back-2.png'); */
   background-color: #0f4392;
   background-size: cover;
   background-repeat: no-repeat;
 }
   
+
+.skill-title {
+  font-size: 1.8em;
+}
+
+.sub-text {
+  font-size: 1.3em;
+}
 
 .display-flex-start {
   display: flex;
@@ -358,10 +385,11 @@ h4.white-text {
 }
 
 .square {
-  height: 15px;
-  width: 15px;
+  height: 3px;
+  width: 450px;
   background-color: #ff8b8b;
-  margin-top: 2em;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .likes {
@@ -428,7 +456,33 @@ img.linkedin {
 }
 
 @media (max-width: 722px ) {
+  .menu-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0;
+    width:100%;
+    height: 60px;
+    background-color: #fff;
+  }
   
+
+      
+  .menu ul {
+     margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      font-size: 1.3em;
+      line-height: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0;
+  }  
+
+
+
   .marg-6em {
     margin-top: 3em;
   }
@@ -441,11 +495,6 @@ img.linkedin {
     font-size: 30px;
   }
 
-  .menu ul {
-     font-size: 1em;
-     width: 250px;
- }  
-
   
  .logo, .presentation {
    margin-top: 3em;
@@ -453,10 +502,17 @@ img.linkedin {
  }
 
 
+.habilities {
+  height: 10vh;
+}
+
+.information {
+  margin-top: none;
+}
 
  .hola {
   font: 30px Helvetica, Sans-Serif;
-  color:#0f4392; 
+  color:#fff; 
 }
 
 .hola-text {
@@ -464,13 +520,31 @@ img.linkedin {
 }
 
 .skills {
-  height: 120vh;
+  height: auto;
   /*background-image: url('../assets/images/back-mobile.png'); */
   background-size: contain;
 }
 
+
+.square {
+  height:15px;
+  width: 15px;
+  background-color: #ff8b8b;
+  margin-top: 2em !important;
+}
+
+.display-flex-skill {
+ flex-direction: column;
+ justify-content: center;
+}
+
+.display-flex-column-skill {
+  width: 400px;
+}
+
+
 .skills-start {
-  margin-top: 3em;
+  margin-top: none;
 }
 
 .skill-title {
@@ -480,7 +554,7 @@ img.linkedin {
  
 .sub-text {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .square {
@@ -491,6 +565,13 @@ p.intereses {
   font-size: 2em !important;
 }
 
+.likes {
+  height: auto;
+}
+
+.footer-section {
+  margin-top: 3em;
+}
 
 .int-text {
   font-size: 1.3em;

@@ -325,6 +325,15 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
   background-repeat: no-repeat;
 }
 
+/*Yolo*/
+.yolo {
+  height: auto;
+  background-image: url('../assets/images/repositorios/yolo.png');
+  background-size: contain;
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+
 /*Footer */
 
 .display-flex-footer {
@@ -355,6 +364,33 @@ img.linkedin {
 
 
 @media (max-width: 722px ) {
+
+  .menu-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0;
+    width:100%;
+    height: 60px;
+    background-color: #fff;
+  }
+  
+
+      
+  .menu ul {
+     margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      font-size: 1.3em;
+      line-height: 20px;
+      font-weight: 600;
+      width: 400px;
+      text-transform: uppercase;
+      padding: 0;
+  }  
+
 
   .back-gray {
     background-color: #cccccc;
@@ -446,22 +482,8 @@ img.linkedin {
   width: 80% !important;
 }
 
-.menu ul {
-  font-size: 1em;
-  width: 300px;
-}
 
-.menu-fixed {
-	position:fixed;
-	z-index:1000;
-	top:0;
-  padding: 2em;
-  background-color: #fff;
-}
 
-.ul-scroll {
-  margin: 0 !important;
-}
 img.github {
   width: 13%;
 }
