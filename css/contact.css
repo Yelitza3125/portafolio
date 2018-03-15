@@ -12,8 +12,12 @@
 .frame {
   margin-top: 3em;
   font-size: 1.5em;
-  color: #fff;
+  color: #ff5151;
   cursor: pointer;
+}
+
+.frame .menu ul li.contact-link span {
+  color: #000249;
 }
 
 /*
@@ -36,11 +40,11 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    width: 350px;
+    width: 450px;
     margin: 0;
     padding: 0;
 }  
@@ -54,22 +58,25 @@
     cursor: pointer;
     transition: all .3s ease-in-out;
 }   
+
+
       
 .menu ul li :hover {
   color: #000249; 
     /*opacity: 0.6; */
     text-decoration: underline;
 }
-.contact {
-  background-image: url('../assets/images/back-4.png');
+.contact, body {
+  /*background-image: url('../assets/images/back-4.png'); 
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: #e5e2e2;
 }
 
 .section-title {
   margin-top: 1em;
-  color: #fff;
+  color: #ff5151;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 4px;
@@ -179,17 +186,30 @@ img.linkedin {
 
 
 @media (max-width:722px ) {
+  
+  .contacto-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
   .frame {
     margin-top: 3em;
     font-size: 1.5em;
-    color: #000249;
+    color: #ff5151;
     cursor: pointer;
     width: 100%;
+  }
+
+  .frame .menu ul li.contact-link span {
+    color: #000249;
   }
   
   .menu ul {
     margin:  0 auto;
     width: 300px;
+    font-size: 16px;
   
 }  
 
@@ -204,13 +224,13 @@ img.linkedin {
 }
 
 .images {
-  margin-top: 2em;
+  margin: 0 auto;
 }
 
 .images div {
-  width: 65px;
-  height:65px;
-  margin: 0.2em !important;
+  width: 60px;
+  height:60px;
+  margin: 0.3em !important;
   float: left;
 }
 

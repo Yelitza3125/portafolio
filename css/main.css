@@ -294,8 +294,8 @@ section.biography .frame .menu ul li:nth-child(1) span {
   }
 
   .information-style {
-    background-color: #ff5151;
-    color: #fff;
+   /* background-color: #ff5151;
+    color: #fff; */
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
@@ -306,6 +306,7 @@ section.biography .frame .menu ul li:nth-child(1) span {
   }
  
   .hola {
+    color: #ff5151;
     display: inline;
     position: relative;
     font: Helvetica, Sans-Serif;
@@ -341,15 +342,16 @@ section.biography .frame .menu ul li:nth-child(1) span {
 }
 
 .skills {
-  height: 80vh;
+  height: 70vh;
   /*background-image: url('../assets/images/back-2.png'); */
-  background-color: #0f4392;
+  /*background-color: #0f4392; */
   background-size: cover;
   background-repeat: no-repeat;
 }
   
 
 .skill-title {
+  color: #000249; 
   font-size: 1.8em;
 }
 
@@ -403,7 +405,7 @@ h4.white-text {
 .likes p.intereses {
   font-size: 5em;
   font-weight: 700;
-  color: #ff8b8b;
+  color: #ff5151;
   letter-spacing: 20px;
   margin: 0 auto;
 }
@@ -460,9 +462,9 @@ img.linkedin {
     position:fixed;
     z-index:1000;
     top:0;
-    width:100%;
+    width: 100%;
     height: 60px;
-    background-color: #fff;
+    background-color: rgb(204, 204, 204);
   }
   
 
@@ -474,9 +476,10 @@ img.linkedin {
       align-items: center;
       justify-content: space-between;
       list-style: none;
-      font-size: 1.3em;
+      font-size: 1.2em;
       line-height: 20px;
       font-weight: 600;
+      width: 300px;
       text-transform: uppercase;
       padding: 0;
   }  
@@ -512,7 +515,7 @@ img.linkedin {
 
  .hola {
   font: 30px Helvetica, Sans-Serif;
-  color:#fff; 
+  color: #ff5151; 
 }
 
 .hola-text {
@@ -563,6 +566,7 @@ img.linkedin {
 
 p.intereses {
   font-size: 2em !important;
+  letter-spacing: 16px !important;
 }
 
 .likes {

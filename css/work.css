@@ -29,7 +29,7 @@
   letter-spacing: 0.2em;
 }
  .text-two {
-  font-size: 7em;
+  font-size: 6.5em;
   /*
   position: absolute;
   top: -3%;
@@ -383,10 +383,10 @@ img.linkedin {
       align-items: center;
       justify-content: space-between;
       list-style: none;
-      font-size: 1.3em;
+      font-size: 1.2em;
       line-height: 20px;
       font-weight: 600;
-      width: 400px;
+      width: auto;
       text-transform: uppercase;
       padding: 0;
   }  
