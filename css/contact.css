@@ -76,46 +76,31 @@
 
 .section-title {
   margin-top: 1em;
-  color: #ff5151;
+  color: #333;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 4px;
 }
 
-.images {
-  overflow: auto;
-  height: auto;
-}
 
-.images {
+
+.images, .datos {
   margin-top: 4em;
 }
 
-.images div {
-  width: 150px;
-  height:150px;
-  margin: 0.2em !important;
-  float: left;
-}
+
 
 h2 {
   text-align: center;
 }
 
-.images div img {
-  width: 150px;
-  height: 150px;
-  filter: grayscale();
+.logo {
+  margin-top: 3em;
+  width: 20%;
 }
 
-
-.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  
-}
 .datos {
-  margin-top: 20em;
+  margin-top: 5em;
 }
 .datos-container {
   align-self: flex-start;
@@ -135,25 +120,31 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
 .datos-container img.github {
   cursor: pointer;
-  margin-top: 1em;
-  width: 15%;
+  margin-top: 1.5em;
+  width: 6.5%
 }
 
 .datos-container img.linkedin {
   cursor: pointer;
-  margin-top: 1em;
-  width: 9%;
+  margin-top: 1.5em;
+  width: 4%;
 }
 
 .dowload-cv {
+  margin-top: 2em;
   text-decoration: none;
-  padding: 1em;
+  padding: 0.5em;
   background-color: #000249;
   border-radius: 10px;
   font-size: 1.3em;
   color: #fff;
+}
+
+.email {
+  margin-top: 1em; 
 }
 
 /*Footer */
@@ -163,8 +154,9 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
 .footer-section {
-  margin-top: 5em;
+  margin-top: 2em;
   border-top: 3px solid #d6d6da;
 /*background-color: #d6d6da; */
   padding: 0.5em;
@@ -184,80 +176,68 @@ img.linkedin {
   width: 2%;
 }
 
-
-@media (max-width:722px ) {
-  
-  .contacto-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .frame {
-    margin-top: 3em;
-    font-size: 1.5em;
-    color: #ff5151;
-    cursor: pointer;
-    width: 100%;
-  }
-
-  .frame .menu ul li.contact-link span {
-    color: #000249;
-  }
-  
-  .menu ul {
-    margin:  0 auto;
-    width: 300px;
-    font-size: 16px;
-  
-}  
-
-.section-title {
-  margin-top: 2em;
-  letter-spacing: 2px;
-  font-size: 2.5em;
-
-}
-.contact {
-  background-size: cover;
-}
-
 .images {
-  margin: 0 auto;
-}
-
-.images div {
-  width: 60px;
-  height:60px;
-  margin: 0.3em !important;
-  float: left;
+  align-self: flex-start;
 }
 
 
-.images div img {
-  width: 65px;
-  height: 65px;
-  filter: grayscale();
-}
-.datos {
-  margin-top: 3em;
+@media (min-width: 601px) {
+ .logo {
+   width: 60%;
+ }
+
+ .dowload-cv {
+  margin-top: 0;
 }
 
-.dowload-cv {
-  text-decoration: none;
-  padding: 0.5em;
-  background-color: #000249;
-  border-radius: 10px;
-  font-size: 1.2em;
-  color: #fff;
+.datos-container img.github {
+  margin-top: 1.5em;
+  width: 10%
 }
 
-.email {
-  font-size: 1.3em;
+.datos-container img.linkedin {
+  margin-top: 1.5em;
+  width: 6%;
 }
 
 .footer-section {
-  margin-top: 3em;
+  margin-top: 0.5em;
 }
+
+}
+
+@media (max-width:600px ) {
+  
+  .logo {
+    width: 70%;
+  }
+
+  .menu ul  {
+    width: 350px;
+    font-size: 0.8em;
+    justify-content: space-around;
+  }
+
+  .section-title {
+    font-size: 3em; 
+  }
+
+  .dowload-cv {
+    margin-top: 0.5em;
+  }
+
+  .datos-container img.github {
+    margin-top: 1.5em;
+    width: 18%
+  }
+  
+  .datos-container img.linkedin {
+    margin-top: 1.5em;
+    width: 11%;
+  }
+
+  .footer-section {
+    margin-top: 0.5em;
+    height: auto;
+  }
 }
