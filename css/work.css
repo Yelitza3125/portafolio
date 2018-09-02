@@ -227,17 +227,17 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 }
 
 .proyect-title {
-    margin-top: 2em;
+    margin-top: 1em;
     text-transform: uppercase;
     color: #0f4392;
-    font-size: 4.5em;
-    font-weight: 700;
-    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: left;
 }
 
 .proyect-description {
     margin-top: 1em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #333;
     font-weight: lighter;
     text-align: justify;
@@ -252,8 +252,8 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 .logo-display {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .logos-tools img {
@@ -263,15 +263,15 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 }
 
 .title-solution {
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     color: #ff5151;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
 }
 
 .text-solution {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #333;
     font-weight: lighter;
     text-align: justify;
@@ -279,18 +279,24 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 
 .btn-github {
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 16px;
     text-decoration: none;
-    padding: 1em 1.5em;
+    padding: 0.5em 1.2em;
     background-color: #ff5151;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
+    margin-left: 15px;
 }
 
 .btn-github:hover {
     background-color: #e5e2e2;
     color: #ff5151;
     transition: 1s;
+}
+
+.img-help {
+    height: 450px;
+    width: 200px;
 }
 
 
@@ -313,7 +319,7 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 
 .cincritica {
     height: auto;
-    background-image: url('../assets/images/repositorios/cincritica-2.jpg');
+    background-image: url('../assets/images/repositorios/metro.jpg');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -335,7 +341,7 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 
 .yolo {
     height: auto;
-    background-image: url('../assets/images/repositorios/yolo.png');
+    /* background-image: url('../assets/images/repositorios/yolo.png');*/
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -456,6 +462,9 @@ img.linkedin {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .title-solution {
+        text-align: center;
     }
     img,
     .proyect-description,
