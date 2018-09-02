@@ -1,36 +1,36 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .vh80 {
-  height: 100vh;
+    height: 100vh;
 }
 
-
 .back-gray {
-  background-color: #cccccc;
-  background-image: url('../assets/images/cuadros.png');
-  background-size: contain;
-  background-position: 100% top;
-  background-repeat: no-repeat; 
-  height: 100vh;
-  display:flex;
-  justify-content: center;
+    background-color: #cccccc;
+    background-image: url('../assets/images/cuadros.png');
+    background-size: contain;
+    background-position: 100% top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .text-one {
-  font-size: 3em;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 0.2em;
+    font-size: 3em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2em;
 }
- .text-two {
-  font-size: 6.5em;
-  /*
+
+.text-two {
+    font-size: 6.5em;
+    /*
   position: absolute;
   top: -3%;
   left: 30% !important;
@@ -39,46 +39,46 @@
   letter-spacing: 0.05em; */
 }
 
-
 .text .letter-bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .text .letter-light {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .display-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .display-flex-around {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
+
 /* Estilo nav*/
+
 
 /*estilo nav bar */
 
 .frame {
-  color: #ff5151;
-  cursor: pointer;
+    color: #ff5151;
+    cursor: pointer;
 }
 
 main .frame-fixed .menu-fixed-scroll ul.ul-scroll li:nth-child(2) span {
-  color: #000249;
+    color: #000249;
 }
 
 main .display-flex-around .frame .menu ul li:nth-child(2) span {
-  color: #000249;
+    color: #000249;
 }
-    
-    
+
 .menu ul {
     display: flex;
     flex-direction: row;
@@ -92,471 +92,445 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
     width: 550px;
     margin: 0;
     padding: 0;
-}  
-    
+}
+
 .ul-scroll {
-  margin: 0 auto !important;
+    margin: 0 auto !important;
 }
 
 .menu ul li {
     cursor: pointer;
     transition: all .3s ease-in-out;
-}   
-      
+}
+
 .menu ul li :hover {
-  color: #000249; 
-  text-decoration: underline;
+    color: #000249;
+    text-decoration: underline;
 }
 
 .frame-fixed {
-  width: 100%;
+    width: 100%;
 }
 
 .menu-fixed {
-	position:fixed;
-	z-index:1000;
-	top:0;
-  width:100%;
-  padding: 2em;
-  background-color: rgb(241, 241, 241);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    padding: 2em;
+    background-color: rgb(241, 241, 241);
 }
 
-
-
-.display-flex-column{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .resume-work {
-  margin-top: 2em;
-  font-size: 1.3em;
-  text-align: justify;
-  margin-left: 1em !important;
+    margin-top: 2em;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-left: 1em !important;
 }
+
 
 /*Estilos de la sección repositorios*/
 
 .repository {
-  margin-top: 10em;
+    margin-top: 10em;
 }
 
 .img-lyft {
-  background-image: url("../assets/images/repositorios/lyft.jpg");
-  /*outline: 1px solid blueviolet; */
+    background-image: url("../assets/images/repositorios/lyft.jpg");
+    /*outline: 1px solid blueviolet; */
 }
 
 .img-labcar {
-  background-image: url("../assets/images/repositorios/lab-car.jpg");
-  /*outline: 1px solid blueviolet; */
+    background-image: url("../assets/images/repositorios/lab-car.jpg");
+    /*outline: 1px solid blueviolet; */
 }
 
 .img-dashboard {
-  background-image: url("../assets/images/repositorios/dashboard.jpg")
+    background-image: url("../assets/images/repositorios/dashboard.jpg")
 }
 
 .img-cincritica {
-  background-image: url("../assets/images/repositorios/cincritica.jpg")
+    background-image: url("../assets/images/repositorios/metro.jpg")
 }
+
 .container-back-style {
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 50vh;
-  width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 45%;
 }
-
-
 
 .container-img img {
-  width: 70%;
-}
-
-.display-flex-row{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.description {
-  color: #000; 
-  width: 45%;
-  text-align: justify;
-}
-
-.mg-1em {
-  margin-top: 1em;
-}
-
-.mg-2em {
-  margin-top: 2em;
-}
-
-.mg-4em {
-  margin-top: 4em;
-}
-
-.rol, .description-text {
-  font-weight: bold;
-}
-
-.pink-color {
-  color: #ff5151;
-}
-
-.text-two span {
-  color: #000249;
-}
-/*Repositorios actuales*/
-
-/*Lyft*/
-.lyft {
-  height: auto;
-  background-image: url('../assets/images/repositorios/lyft-2.jpg');
-  background-size: contain;
-  background-position: center center; 
-  background-repeat: no-repeat;
-}
-
-.container-description {
-  height: auto;
-} 
-
-.proyect-title {
-  margin-top: 2em;
-  text-transform: uppercase;
-  color: #0f4392;
-  font-size: 4.5em;
-  font-weight: 700;
-  text-align: center;
- 
-}
-
-.proyect-description { 
-  margin-top: 1em;
-  font-size: 1.5em;
-  color: #333;
-  font-weight: lighter;
-  text-align: justify;
+    width: 70%;
 }
 
 .display-flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo-display{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.description {
+    color: #000;
+    width: 45%;
+    text-align: justify;
+}
+
+.mg-1em {
+    margin-top: 1em;
+}
+
+.mg-2em {
+    margin-top: 2em;
+}
+
+.mg-4em {
+    margin-top: 4em;
+}
+
+.rol,
+.description-text {
+    font-weight: bold;
+}
+
+.pink-color {
+    color: #ff5151;
+}
+
+.text-two span {
+    color: #000249;
+}
+
+
+/*Repositorios actuales*/
+
+
+/*Lyft*/
+
+.lyft {
+    height: auto;
+    background-image: url('../assets/images/repositorios/lyft-2.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-description {
+    height: auto;
+}
+
+.proyect-title {
+    margin-top: 2em;
+    text-transform: uppercase;
+    color: #0f4392;
+    font-size: 4.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.proyect-description {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logos-tools img {
-  width: 50%;
-  filter: grayscale();
-  margin-bottom: 2em;
+    width: 50%;
+    filter: grayscale();
+    margin-bottom: 2em;
 }
 
 .title-solution {
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #ff5151;
-  font-weight: 700;
-  text-align: center;
-}
-
-.text-solution { 
-  font-size: 1.3em;
-  color: #333;
-  font-weight: lighter;
-  text-align: justify;
-}
-
-.btn-github {
-  text-transform: uppercase;
-  font-size: 1.3em;
-  text-decoration: none;
-  padding: 1em 1.5em;
-  background-color: #ff5151;
-  border-radius: 10px;
-  color: #fff;
-}
-
-.btn-github:hover {
-  background-color: #e5e2e2;
-  color: #ff5151;
-  transition: 1s;
-}
-
-/*LabCar*/
-
-.mg-8em {
-  margin-top: 8em;
-}
-
-.labcar {
-  height: auto;
-  background-image: url('../assets/images/repositorios/labcar.jpg');
-  background-size: contain;
-  background-position: center center; 
-  background-repeat: no-repeat;
-}
-
-/*Cincrítica*/
-
-.cincritica {
-  height: auto;
-  background-image: url('../assets/images/repositorios/cincritica-2.jpg');
-  background-size: contain;
-  background-position: center center; 
-  background-repeat: no-repeat;
-}
-
-/*Checkbus*/
-
-.check-bus {
-  height: auto;
-  background-image: url('../assets/images/repositorios/check-bus.jpg');
-  background-size: contain;
-  background-position: center center; 
-  background-repeat: no-repeat;
-}
-
-/*Yolo*/
-.yolo {
-  height: auto;
-  background-image: url('../assets/images/repositorios/yolo.png');
-  background-size: contain;
-  background-position: center center; 
-  background-repeat: no-repeat;
-}
-
-/*Footer */
-
-.display-flex-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer-section {
-  margin-top: 7em;
-  border-top: 3px solid #d6d6da;
-/*background-color: #d6d6da; */
-  padding: 0.5em;
-}
-.text-footer {
-  text-align: center;
-  padding: 1em;
-}
-
-img.github {
-  cursor: pointer;
-  width: 3.5%;
-}
-
-img.linkedin {
-  cursor: pointer;
-  width: 2%;
-}
-
-.demo {
-  padding-left : 2.5em;
-  padding-right: 2.5em; 
-}
-
-
-@media (min-width: 723px ) {
-
-  .menu ul {
-    width: 500px;
-  }
-  .text-one  {
-    font-size: 3em !important; 
-  }
-
-  .proyect-tab {
-    font-weight: 600;
-    color: #0f4392;
-    font-size: 5em;
-  }
-
- .proyect-title {
-   font-size: 4em;
- }
-  .tablet-hide {
-    display: none;
-  }
-
-  .proyect-description, .text-solution {
-    margin-top: 2em !important;
-  }
-}  
-
-
-@media (max-width: 722px ) {
-
-  .menu-fixed {
-    position:fixed;
-    z-index:1000;
-    top:0;
-    width:100%;
-    height: 60px;
-    background-color: rgb(241, 241, 241);
-  }
-  
-  .proyect-tab {
-    display: none;
-  }
-      
-  .menu ul {
-     margin: 0 auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      list-style: none;
-      font-size: 1.2em;
-      line-height: 20px;
-      font-weight: 600;
-      width: 290px;
-      text-transform: uppercase;
-      padding: 0;
-  }  
-
-
-  .back-gray {
-    background-color: #cccccc;
-    background-image: url('../assets/images/cuadros.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; 
-    height: 100vh;
-  }
-  
-  .text-one {
-    font-size: 2.3em;
-  }
-
-  .text {
-    position: absolute;
-    left: 10% !important;
-    width: 100%;  
-    font-size: 3em;
-    margin-top: 6em;
- 
-  }
-
-  .container-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .logos-tools {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  img, .proyect-description,  .text-solution, .botones {
-    margin: 0 auto;
-  }
-
-  .logos-tools img {
-    margin-top: 2em;
-  }
-
-  .botones {
-    margin-top: 2em;
-  }
-
-  .resume-work {
-    margin-top: 2em;
-    font-size: 1.2em;
-  
-  }
-
-
-  .repository {
-    margin-top: 0;
-  }
-
-  .vh80 {
-    height: auto;
-  }
-
-  .proyect-title {
-    margin-top: 0;
+    font-size: 2em;
     text-transform: uppercase;
-    color: #0f4392;
-    font-size: 2.5em;
+    color: #ff5151;
     font-weight: 700;
     text-align: center;
-   
-  }
-  
-  .proyect-description { 
-    margin-top: 1em;
+}
+
+.text-solution {
     font-size: 1.3em;
     color: #333;
     font-weight: lighter;
     text-align: justify;
-  }
-
-  /*Checkbus*/
-
-.mov-img {
-  margin-top: 1.5em;
-}
-
-.title-solution {
-  margin-top: 1em;
 }
 
 .btn-github {
-  text-transform: uppercase;
-  font-size: 1em;
-  text-decoration: none;
-  padding: 0.6em 1.3em;
-  background-color: #ff5151;
-  border-radius: 10px;
-  color: #fff;
-}
-
-.btn-demo {
-  text-transform: uppercase;
-  font-size: 1em;
-  text-decoration: none;
-  padding: 0.6em 2em;
-  background-color: #ff5151;
-  border-radius: 10px;
-  color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    background-color: #ff5151;
+    border-radius: 10px;
+    color: #fff;
 }
 
 .btn-github:hover {
-  background-color: #e5e2e2;
-  color: #ff5151;
+    background-color: #e5e2e2;
+    color: #ff5151;
+    transition: 1s;
 }
 
-/*
-.tools-cincritica {
-  width: 80% !important;
-} */
+
+/*LabCar*/
+
+.mg-8em {
+    margin-top: 8em;
+}
+
+.labcar {
+    height: auto;
+    background-image: url('../assets/images/repositorios/labcar.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 
+/*Cincrítica*/
+
+.cincritica {
+    height: auto;
+    background-image: url('../assets/images/repositorios/cincritica-2.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*Checkbus*/
+
+.check-bus {
+    height: auto;
+    background-image: url('../assets/images/repositorios/check-bus.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*Yolo*/
+
+.yolo {
+    height: auto;
+    background-image: url('../assets/images/repositorios/yolo.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*Footer */
+
+.display-flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section {
+    margin-top: 7em;
+    border-top: 3px solid #d6d6da;
+    /*background-color: #d6d6da; */
+    padding: 0.5em;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 1em;
+}
 
 img.github {
-  width: 13%;
+    cursor: pointer;
+    width: 3.5%;
 }
 
 img.linkedin {
-  width: 8%;
+    cursor: pointer;
+    width: 2%;
 }
+
+.demo {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+@media (min-width: 723px) {
+    .menu ul {
+        width: 500px;
+    }
+    .text-one {
+        font-size: 3em !important;
+    }
+    .proyect-tab {
+        font-weight: 600;
+        color: #0f4392;
+        font-size: 5em;
+    }
+    .proyect-title {
+        font-size: 4em;
+    }
+    .tablet-hide {
+        display: none;
+    }
+    .proyect-description,
+    .text-solution {
+        margin-top: 2em !important;
+    }
+}
+
+@media (max-width: 722px) {
+    .menu-fixed {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(241, 241, 241);
+    }
+    .proyect-tab {
+        display: none;
+    }
+    .menu ul {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 1.2em;
+        line-height: 20px;
+        font-weight: 600;
+        width: 290px;
+        text-transform: uppercase;
+        padding: 0;
+    }
+    .back-gray {
+        background-color: #cccccc;
+        background-image: url('../assets/images/cuadros.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .text-one {
+        font-size: 2.3em;
+    }
+    .text {
+        position: absolute;
+        left: 10% !important;
+        width: 100%;
+        font-size: 3em;
+        margin-top: 6em;
+    }
+    .container-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logos-tools {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img,
+    .proyect-description,
+    .text-solution,
+    .botones {
+        margin: 0 auto;
+    }
+    .logos-tools img {
+        margin-top: 2em;
+    }
+    .botones {
+        margin-top: 2em;
+    }
+    .resume-work {
+        margin-top: 2em;
+        font-size: 1.2em;
+    }
+    .repository {
+        margin-top: 0;
+    }
+    .vh80 {
+        height: auto;
+    }
+    .proyect-title {
+        margin-top: 0;
+        text-transform: uppercase;
+        color: #0f4392;
+        font-size: 2.5em;
+        font-weight: 700;
+        text-align: center;
+    }
+    .proyect-description {
+        margin-top: 1em;
+        font-size: 1.3em;
+        color: #333;
+        font-weight: lighter;
+        text-align: justify;
+    }
+    /*Checkbus*/
+    .mov-img {
+        margin-top: 1.5em;
+    }
+    .title-solution {
+        margin-top: 1em;
+    }
+    .btn-github {
+        text-transform: uppercase;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 0.6em 1.3em;
+        background-color: #ff5151;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .btn-demo {
+        text-transform: uppercase;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 0.6em 2em;
+        background-color: #ff5151;
+        border-radius: 10px;
+        color: #fff;
+    }
+    .btn-github:hover {
+        background-color: #e5e2e2;
+        color: #ff5151;
+    }
+    /*
+.tools-cincritica {
+  width: 80% !important;
+} */
+    img.github {
+        width: 13%;
+    }
+    img.linkedin {
+        width: 8%;
+    }
 }
