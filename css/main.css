@@ -314,16 +314,6 @@ section.biography .frame .menu ul li:nth-child(1) span {
     /* color:#0f4392; */
 }
 
-
-/*
-.hola:after {
-    content: "User";
-    position: absolute; left: 10px; top: 5px;
-    
-    color: rgba(216, 210, 210, 0.5);   
-    color: rgba(231, 227, 227, 0.4);
-} */
-
 .display-flex-skill {
     display: flex;
     justify-content: space-around;
@@ -353,14 +343,13 @@ section.biography .frame .menu ul li:nth-child(1) span {
 .skill-title {
     color: #000249;
     font-weight: 600;
-    text-decoration: underline;
     text-underline-position: center;
     font-size: 1.8em;
 }
 
 .sub-text {
     font-size: 1.3em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
 }
 
 .display-flex-start {
@@ -467,6 +456,13 @@ img.linkedin {
     width: 2%;
 }
 
+.square {
+    height: 15px;
+    width: 15px;
+    background-color: #ff8b8b;
+    margin-top: 1em !important;
+}
+
 @media (max-width: 992px) {
     .presentation,
     .hola-text {
@@ -552,12 +548,6 @@ img.linkedin {
         height: auto;
         /*background-image: url('../assets/images/back-mobile.png'); */
         background-size: contain;
-    }
-    .square {
-        height: 15px;
-        width: 15px;
-        background-color: #ff8b8b;
-        margin-top: 2em !important;
     }
     .display-flex-skill {
         flex-direction: column;

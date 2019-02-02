@@ -1,39 +1,33 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
+
 /* Estilo nav*/
+
 
 /*estilo nav bar */
 
 .frame {
-  margin-top: 3em;
-  font-size: 1.5em;
-  color: #ff5151;
-  cursor: pointer;
+    margin-top: 3em;
+    font-size: 1.5em;
+    color: #ff5151;
+    cursor: pointer;
 }
 
 .frame .menu ul li.contact-link span {
-  color: #000249;
+    color: #000249;
 }
-
-/*
-.menu {
-    padding: 0 10px;
-    opacity: 0;
-    pointer-events: none;
-    transition: all .5s ease-in-out;
-}     */
 
 .active {
     opacity: 1;
     pointer-events: all;
     transition: all .5s ease-in-out .5s;
 }
-    
+
 .menu ul {
     display: flex;
     flex-direction: row;
@@ -47,8 +41,8 @@
     width: 450px;
     margin: 0;
     padding: 0;
-}  
-    
+}
+
 .menu ul li {
     position: relative;
     display: block;
@@ -57,205 +51,192 @@
     padding: 0;
     cursor: pointer;
     transition: all .3s ease-in-out;
-}   
+}
 
-
-      
 .menu ul li :hover {
-  color: #000249; 
+    color: #000249;
     /*opacity: 0.6; */
     text-decoration: underline;
 }
-.contact, body {
-  /*background-image: url('../assets/images/back-4.png'); 
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; */
-  background-color: #e5e2e2;
+
+.contact,
+body {
+    background-color: #fff;
 }
 
 .section-title {
-  margin-top: 1em;
-  color: #333;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 4px;
+    margin-top: 1em;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
 }
 
-
-
-.images, .datos {
-  margin-top: 4em;
+.images,
+.datos {
+    margin-top: 4em;
 }
-
-
 
 h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .logo {
-  margin-top: 3em;
-  width: 70%;
+    margin-top: 3em;
+    width: 70%;
 }
 
 .datos {
-  margin-top: 5em;
-}
-.datos-container {
-  align-self: flex-start;
+    margin-top: 5em;
 }
 
+.datos-container {
+    align-self: flex-start;
+}
 
 .display-flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .display-flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .datos-container img.github {
-  cursor: pointer;
-  margin-top: 1.5em;
-  width: 6.5%
+    cursor: pointer;
+    margin-top: 1.5em;
+    width: 6.5%
 }
 
 .datos-container img.linkedin {
-  cursor: pointer;
-  margin-top: 1.5em;
-  width: 4%;
+    cursor: pointer;
+    margin-top: 1.5em;
+    width: 4%;
 }
 
 .dowload-cv {
-  margin-top: 2em;
-  text-decoration: none;
-  padding: 0.5em;
-  background-color: #000249;
-  border-radius: 10px;
-  font-size: 1.3em;
-  color: #fff;
+    margin-top: 2em;
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: #fff;
+    border: 2px solid #ff5151;
+    border-radius: 3px;
+    font-size: 1.2em;
+    color: #ff5151;
 }
 
-.email {
-  margin-top: 1em; 
+.text-contact {
+    margin-top: 1em;
+    color: #828282;
 }
+
 
 /*Footer */
 
 .display-flex-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-section {
-  margin-top: 2em;
-  border-top: 3px solid #d6d6da;
-/*background-color: #d6d6da; */
-  padding: 0.5em;
+    margin-top: 2em;
+    border-top: 3px solid #d6d6da;
+    /*background-color: #d6d6da; */
+    padding: 0.5em;
 }
+
 .text-footer {
-  text-align: center;
-  padding: 1em;
+    text-align: center;
+    padding: 1em;
 }
 
 img.github {
-  cursor: pointer;
-  width: 3.5%;
+    cursor: pointer;
+    width: 3.5%;
 }
 
 img.linkedin {
-  cursor: pointer;
-  width: 2%;
+    cursor: pointer;
+    width: 2%;
 }
 
 .images {
-  align-self: flex-start;
+    align-self: flex-start;
 }
-
 
 @media (min-width: 601px) {
- .logo {
-   width: 60%;
- }
-
- .dowload-cv {
-  margin-top: 0;
+    .logo {
+        width: 60%;
+    }
+    .dowload-cv {
+        margin-top: 0;
+    }
+    .datos-container img.github {
+        margin-top: 1.5em;
+        width: 10%
+    }
+    .datos-container img.linkedin {
+        margin-top: 1.5em;
+        width: 6%;
+    }
+    .footer-section {
+        margin-top: 0.5em;
+    }
 }
 
-.datos-container img.github {
-  margin-top: 1.5em;
-  width: 10%
+@media (max-width:600px) {
+    .logo {
+        margin-top: 6em;
+        max-width: 60%;
+    }
+    .datos {
+        margin-top: 3em;
+    }
+    .menu ul {
+        width: 350px;
+        font-size: 0.8em;
+        justify-content: space-around;
+    }
+    .section-title {
+        font-size: 3em;
+    }
+    .dowload-cv {
+        margin-top: 0.5em;
+    }
+    .datos-container img.github {
+        margin-top: 1.5em;
+        width: 18%
+    }
+    .datos-container img.linkedin {
+        margin-top: 1.5em;
+        width: 11%;
+    }
+    .footer-section {
+        margin-top: 0.5em;
+        height: auto;
+    }
 }
 
-.datos-container img.linkedin {
-  margin-top: 1.5em;
-  width: 6%;
-}
-
-.footer-section {
-  margin-top: 0.5em;
-}
-
-}
-
-@media (max-width:600px ) {
-  
-
-  
-
-  .menu ul  {
-    width: 350px;
-    font-size: 0.8em;
-    justify-content: space-around;
-  }
-
-  .section-title {
-    font-size: 3em; 
-  }
-
-  .dowload-cv {
-    margin-top: 0.5em;
-  }
-
-  .datos-container img.github {
-    margin-top: 1.5em;
-    width: 18%
-  }
-  
-  .datos-container img.linkedin {
-    margin-top: 1.5em;
-    width: 11%;
-  }
-
-  .footer-section {
-    margin-top: 0.5em;
-    height: auto;
-  }
-}
-
-@media  (min-width: 992px) {
-  .logo {
-    margin-top: 3em;
-    width: 20%; 
-  }
-
-  .datos-container img.github {
-    cursor: pointer;
-    margin-top: 1.5em;
-    width: 5%
-  }
-  
-  .datos-container img.linkedin {
-    cursor: pointer;
-    margin-top: 1.5em;
-    width: 3%;
-  }
+@media (min-width: 992px) {
+    .logo {
+        margin-top: 6em;
+        width: 20%;
+    }
+    .datos-container img.github {
+        cursor: pointer;
+        margin-top: 1.5em;
+        width: 5%
+    }
+    .datos-container img.linkedin {
+        cursor: pointer;
+        margin-top: 1.5em;
+        width: 3%;
+    }
 }

@@ -227,7 +227,6 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 }
 
 .proyect-title {
-    margin-top: 1em;
     text-transform: uppercase;
     color: #0f4392;
     font-size: 2.5em;
@@ -256,12 +255,6 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
     align-items: left;
 }
 
-.logos-tools img {
-    width: 50%;
-    filter: grayscale();
-    margin-bottom: 2em;
-}
-
 .title-solution {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -283,14 +276,30 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
     text-decoration: none;
     padding: 0.5em 1.2em;
     background-color: #ff5151;
-    border-radius: 5px;
+    border-radius: 3px;
     color: #fff;
-    margin-left: 15px;
 }
 
 .btn-github:hover {
     background-color: #e5e2e2;
     color: #ff5151;
+    transition: 1s;
+}
+
+.btn-proyecto {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.5em 1.2em;
+    background-color: #ffffff;
+    border: 2px solid #ff5151;
+    border-radius: 3px;
+    color: #ff5151;
+}
+
+.btn-proyecto:hover {
+    border: 2px solid #e5e2e2;
+    color: #e5e2e2;
     transition: 1s;
 }
 
@@ -403,7 +412,7 @@ img.linkedin {
     }
     .proyect-description,
     .text-solution {
-        margin-top: 2em !important;
+        margin-top: 1em !important;
     }
 }
 
@@ -457,23 +466,17 @@ img.linkedin {
         justify-content: center;
         align-items: center;
     }
-    .logos-tools {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     .title-solution {
         text-align: center;
+    }
+    .text-solution {
+        font-size: 16px;
     }
     img,
     .proyect-description,
     .text-solution,
     .botones {
         margin: 0 auto;
-    }
-    .logos-tools img {
-        margin-top: 2em;
     }
     .botones {
         margin-top: 2em;
@@ -498,7 +501,7 @@ img.linkedin {
     }
     .proyect-description {
         margin-top: 1em;
-        font-size: 1.3em;
+        font-size: 16px;
         color: #333;
         font-weight: lighter;
         text-align: justify;
@@ -510,14 +513,8 @@ img.linkedin {
     .title-solution {
         margin-top: 1em;
     }
-    .btn-github {
-        text-transform: uppercase;
-        font-size: 1em;
-        text-decoration: none;
-        padding: 0.6em 1.3em;
-        background-color: #ff5151;
-        border-radius: 10px;
-        color: #fff;
+    .btn-proyecto {
+        padding: 0.3em 1em;
     }
     .btn-demo {
         text-transform: uppercase;
@@ -525,12 +522,8 @@ img.linkedin {
         text-decoration: none;
         padding: 0.6em 2em;
         background-color: #ff5151;
-        border-radius: 10px;
+        border-radius: 3px;
         color: #fff;
-    }
-    .btn-github:hover {
-        background-color: #e5e2e2;
-        color: #ff5151;
     }
     /*
 .tools-cincritica {
