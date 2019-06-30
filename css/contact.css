@@ -14,7 +14,7 @@
 .frame {
     margin-top: 3em;
     font-size: 1.5em;
-    color: #ff5151;
+    color: gray;
     cursor: pointer;
 }
 
@@ -54,13 +54,12 @@
 }
 
 .menu ul li :hover {
-    color: #000249;
+    color: #ff5151;;
     /*opacity: 0.6; */
     text-decoration: underline;
 }
 
-.contact,
-body {
+.contact, body {
     background-color: #fff;
 }
 
@@ -72,8 +71,7 @@ body {
     letter-spacing: 4px;
 }
 
-.images,
-.datos {
+.images, .datos {
     margin-top: 4em;
 }
 
@@ -82,8 +80,8 @@ h2 {
 }
 
 .logo {
-    margin-top: 3em;
-    width: 70%;
+    margin-top: 5em;
+    width: 100%;
 }
 
 .datos {
@@ -122,17 +120,18 @@ h2 {
 
 .dowload-cv {
     margin-top: 2em;
+    margin-bottom: 2em;
     text-decoration: none;
-    padding: 0.5em;
+    padding: 0.5em 1.5em;
     background-color: #fff;
     border: 2px solid #ff5151;
     border-radius: 3px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #ff5151;
 }
 
 .text-contact {
-    margin-top: 1em;
+    font-size: 1.5em;
     color: #828282;
 }
 
@@ -146,7 +145,7 @@ h2 {
 }
 
 .footer-section {
-    margin-top: 2em;
+    margin-top: 4em;
     border-top: 3px solid #d6d6da;
     /*background-color: #d6d6da; */
     padding: 0.5em;
@@ -173,10 +172,10 @@ img.linkedin {
 
 @media (min-width: 601px) {
     .logo {
-        width: 60%;
+        width: 80%;
     }
     .dowload-cv {
-        margin-top: 0;
+        margin-top: 2em;
     }
     .datos-container img.github {
         margin-top: 1.5em;
@@ -186,18 +185,15 @@ img.linkedin {
         margin-top: 1.5em;
         width: 6%;
     }
-    .footer-section {
-        margin-top: 0.5em;
-    }
 }
 
 @media (max-width:600px) {
     .logo {
-        margin-top: 6em;
-        max-width: 60%;
+        margin-top: 8em;
+        max-width: 80%;
     }
     .datos {
-        margin-top: 3em;
+        margin-top: 5em;
     }
     .menu ul {
         width: 350px;
@@ -209,25 +205,37 @@ img.linkedin {
     }
     .dowload-cv {
         margin-top: 0.5em;
+        margin-bottom: 1em;
+        padding: 0.5em 1em;    
+        font-size: 1.5em;
     }
+
     .datos-container img.github {
-        margin-top: 1.5em;
+        margin-top: 2.5em;
         width: 18%
     }
     .datos-container img.linkedin {
-        margin-top: 1.5em;
+        margin-top: 2.5em;
         width: 11%;
     }
+
+    .text-contact {
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
     .footer-section {
-        margin-top: 0.5em;
-        height: auto;
+        margin-top: 3em;
+        height: 40px;
     }
 }
 
 @media (min-width: 992px) {
+
+ 
     .logo {
-        margin-top: 6em;
-        width: 20%;
+        margin-top: 8em;
+        width: 30%;
     }
     .datos-container img.github {
         cursor: pointer;

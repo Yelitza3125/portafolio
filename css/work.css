@@ -30,13 +30,7 @@
 
 .text-two {
     font-size: 6.5em;
-    /*
-  position: absolute;
-  top: -3%;
-  left: 30% !important;
-  font-size: 7em;
-  margin-top: 2em;
-  letter-spacing: 0.05em; */
+    color: #000249;
 }
 
 .text .letter-bold {
@@ -67,7 +61,7 @@
 /*estilo nav bar */
 
 .frame {
-    color: #ff5151;
+    color: gray;
     cursor: pointer;
 }
 
@@ -100,11 +94,11 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 
 .menu ul li {
     cursor: pointer;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .menu ul li :hover {
-    color: #000249;
+    color: #ff5151;
     text-decoration: underline;
 }
 
@@ -130,9 +124,9 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 
 .resume-work {
     margin-top: 2em;
+    width: 550px;
     font-size: 1.3em;
     text-align: justify;
-    margin-left: 1em !important;
 }
 
 
@@ -142,23 +136,6 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
     margin-top: 10em;
 }
 
-.img-lyft {
-    background-image: url("../assets/images/repositorios/lyft.jpg");
-    /*outline: 1px solid blueviolet; */
-}
-
-.img-labcar {
-    background-image: url("../assets/images/repositorios/lab-car.jpg");
-    /*outline: 1px solid blueviolet; */
-}
-
-.img-dashboard {
-    background-image: url("../assets/images/repositorios/dashboard.jpg")
-}
-
-.img-cincritica {
-    background-image: url("../assets/images/repositorios/metro.jpg")
-}
 
 .container-back-style {
     background-size: contain;
@@ -212,15 +189,7 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 /*Repositorios actuales*/
 
 
-/*Lyft*/
-
-.lyft {
-    height: auto;
-    background-image: url('../assets/images/repositorios/lyft-2.jpg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+/*Ingrid*/
 
 .container-description {
     height: auto;
@@ -256,6 +225,7 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 }
 
 .title-solution {
+    margin-top: 1.5em;
     font-size: 1.5em;
     text-transform: uppercase;
     color: #ff5151;
@@ -309,52 +279,17 @@ main .display-flex-around .frame .menu ul li:nth-child(2) span {
 }
 
 
-/*LabCar*/
+/*ingrid*/
+
+.ingrid {
+    margin-top: 2em;
+    margin-bottom: 8em;
+}
 
 .mg-8em {
     margin-top: 8em;
 }
 
-.labcar {
-    height: auto;
-    background-image: url('../assets/images/repositorios/labcar.jpg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-
-/*Cincrítica*/
-
-.cincritica {
-    height: auto;
-    background-image: url('../assets/images/repositorios/metro.jpg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-
-/*Checkbus*/
-
-.check-bus {
-    height: auto;
-    background-image: url('../assets/images/repositorios/check-bus.jpg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-
-/*Yolo*/
-
-.yolo {
-    height: auto;
-    /* background-image: url('../assets/images/repositorios/yolo.png');*/
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
 
 
 /*Footer */
@@ -460,31 +395,33 @@ img.linkedin {
         font-size: 3em;
         margin-top: 6em;
     }
+
     .container-description {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .title-solution {
         text-align: center;
     }
+
     .text-solution {
         font-size: 16px;
     }
+
     img,
     .proyect-description,
     .text-solution,
     .botones {
         margin: 0 auto;
     }
+    
     .botones {
         margin-top: 2em;
     }
-    .resume-work {
-        margin-top: 2em;
-        font-size: 1.2em;
-    }
+   
     .repository {
         margin-top: 0;
     }
@@ -506,12 +443,12 @@ img.linkedin {
         font-weight: lighter;
         text-align: justify;
     }
-    /*Checkbus*/
+    
     .mov-img {
         margin-top: 1.5em;
     }
     .title-solution {
-        margin-top: 1em;
+        margin-top: 1.5em;
     }
     .btn-proyecto {
         padding: 0.3em 1em;
@@ -520,7 +457,7 @@ img.linkedin {
         text-transform: uppercase;
         font-size: 1em;
         text-decoration: none;
-        padding: 0.6em 2em;
+        padding: 0.6em 3em;
         background-color: #ff5151;
         border-radius: 3px;
         color: #fff;
@@ -531,8 +468,10 @@ img.linkedin {
 } */
     img.github {
         width: 13%;
+        margin: 0;
     }
     img.linkedin {
         width: 8%;
+        margin: 0;
     }
 }
