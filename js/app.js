@@ -38,44 +38,44 @@ $(document).ready(function() {
 
     setTimeout(function changeFormDarkBlue() {
         var sizeChange = ['20%', '10%', '25%', '30%'];
-        var heightChange = ['10vh', '20vh', '25vh', '18vh'];
+        var heightChange = ['10vh', '20vh', '25vh', '15vh'];
 
         $('.blue-soft').animate({
             width: sizeChange[Math.floor(Math.random() * 4)],
             height: heightChange[Math.floor(Math.random() * 4)]
         });
-        $('.blue-soft').toggleClass('pink-one');
+        $('.blue-soft').toggleClass('.pink-one');
     }, 3000);
 
     setTimeout(function changeFormSoftBlue() {
-        var sizeChangeTwo = ['25%', '15%', '28%', '18%'];
-        var heightChange = ['10vh', '18vh', '15vh', '22vh'];
+        var sizeChangeTwo = ['25%', '15%', '25%', '15%'];
+        var heightChange = ['10vh', '15vh', '15vh', '20vh'];
 
         $('.dark-blue').animate({
             width: sizeChangeTwo[Math.floor(Math.random() * 4)],
             height: heightChange[Math.floor(Math.random() * 4)]
         });
-        $('.dark-blue').toggleClass('pink-soft');
+        $('.dark-blue').toggleClass('.pink-soft');
     }, 5000);
 
     setTimeout(function changeFormPinkDark() {
-        var sizeChangeThree = ['21%', '19%', '23%', '30%'];
-        var heightChange = ['12vh', '22vh', '18vh', '15vh'];
+        var sizeChangeThree = ['20%', '15%', '25%', '30%'];
+        var heightChange = ['15vh', '25vh', '20vh', '15vh'];
         $('.pink-one').animate({
             width: sizeChangeThree[Math.floor(Math.random() * 4)],
             height: heightChange[Math.floor(Math.random() * 4)]
         });
-        $('.pink-one').toggleClass('dark-blue');
+        $('.pink-one').toggleClass('.dark-blue');
     }, 7000);
 
     setTimeout(function changeFormPinkSoft() {
-        var sizeChangeFour = ['22%', '24%', '15%', '31%'];
-        var heightChange = ['17vh', '20vh', '25vh', '10vh'];
+        var sizeChangeFour = ['20%', '25%', '15%', '30%'];
+        var heightChange = ['15vh', '20vh', '25vh', '10vh'];
         $('.soft-pink').animate({
             width: sizeChangeFour[Math.floor(Math.random() * 4)],
             height: heightChange[Math.floor(Math.random() * 4)]
         });
-        $('.soft-pink').toggleClass('blue-soft');
+        $('.soft-pink').toggleClass('.blue-soft');
     }, 9000);
 
 
